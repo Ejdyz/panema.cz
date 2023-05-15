@@ -14,7 +14,7 @@ export default function NavBar(props){
         <Link to="/" style={{ textDecoration: 'none' }}>
           <Navbar.Brand>
             <img
-              src='\logo.png'
+              src='\images\logo.png'
               alt='Logo'
               height='32px'
               style={{backgroundColor: "#7c7c7c",padding: "2px"}}

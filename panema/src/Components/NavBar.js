@@ -11,25 +11,27 @@ export default function NavBar(props){
   return(
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href='/'>
-          <img
-            src='\logo.png'
-            alt='Logo'
-            height='32px'
-            style={{backgroundColor: "gray",padding: "2px"}}
-          />
-        </Navbar.Brand>
+        <Link to="/" style={{ textDecoration: 'none' }}>
+          <Navbar.Brand>
+            <img
+              src='\logo.png'
+              alt='Logo'
+              height='32px'
+              style={{backgroundColor: "#7c7c7c",padding: "2px"}}
+            />
+          </Navbar.Brand>
+        </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link active={props.currentPage === "uvod"} href="/">Úvod</Nav.Link>
-            <Nav.Link active={props.currentPage === "kontakt"} href="/kontakt">Kontakt</Nav.Link>
-            <Nav.Link active={props.currentPage === "technologie"} href="/technologie">Technologie</Nav.Link>
-            <Nav.Link active={props.currentPage === "reference"} href="/reference">Referece</Nav.Link>
-            <Nav.Link active={props.currentPage === "fotografie"} href="/fotografie">Fotografie</Nav.Link>
+            <Link to="/" style={{ textDecoration: 'none' }}><Nav.Link as={"span"} active={props.currentPage === "main"} >Úvod</Nav.Link></Link>
+            <Link to="/kontakt" style={{ textDecoration: 'none' }}><Nav.Link as={"span"} active={props.currentPage === "contact"} >Kontakt</Nav.Link></Link>
+            <Link to="/technologie" style={{ textDecoration: 'none' }}><Nav.Link as={"span"} active={props.currentPage === "technology"} >Technologie</Nav.Link></Link>
+            <Link to="/reference" style={{ textDecoration: 'none' }}><Nav.Link as={"span"} active={props.currentPage === "reference"} >Referece</Nav.Link></Link>
+            <Link to="/fotografie" style={{ textDecoration: 'none' }}><Nav.Link as={"span"} active={props.currentPage === "fotography"}>Fotografie</Nav.Link></Link>
           </Nav>
           <Nav>
-            <Nav.Link active={props.currentPage === "kestazeni"} href='/kestazeni'>Ke Stažení</Nav.Link>
+          <Link to="/kestazeni" style={{ textDecoration: 'none' }}><Nav.Link as={"span"} active={props.currentPage === "download"}>Ke Stažení</Nav.Link></Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

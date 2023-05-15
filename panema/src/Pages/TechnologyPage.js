@@ -1,9 +1,9 @@
 import NavBar from '../Components/NavBar'
 
-export function MainPage(){
+export function TechnologyPage(){
   return(
     <>
-      <NavBar currentPage="main" />
+      <NavBar currentPage="technology"/>
       <h>Ashjd</h>
 
     </> 

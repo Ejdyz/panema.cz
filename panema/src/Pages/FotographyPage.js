@@ -1,9 +1,9 @@
 import NavBar from '../Components/NavBar'
 
-export function MainPage(){
+export function FotographyPage(){
   return(
     <>
-      <NavBar currentPage="main" />
+      <NavBar currentPage="fotography" />
       <h>Ashjd</h>
 
     </> 

@@ -3,14 +3,23 @@ import Button from 'react-bootstrap/Button';
 import { Route,Routes } from 'react-router-dom';
 import './App.css';
 
+import {MainPage} from './Pages/MainPage'
+import {ContactPage} from './Pages/ContactPage'
+import {TechnologyPage} from './Pages/TechnologyPage'
+import {ReferencesPage} from './Pages/ReferencesPage'
+import {FotographyPage} from './Pages/FotographyPage'
+
+import {DownloadPage} from './Pages/DownloadPage'
+
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<h1>Úvod</h1>}/>
-      <Route path='/kontakt' element={<h1>Kontakt</h1>}/>
-      <Route path='/technologie' element={<h1>technologie</h1>}/>
-      <Route path='/reference' element={<h1>Reference</h1>}/>
-      <Route path='/fotografie' element={<h1>Fotogalerie</h1>}/>
+      <Route path='/' element={<MainPage/>}/>
+      <Route path='/kontakt' element={<ContactPage />}/>
+      <Route path='/technologie' element={<TechnologyPage />}/>
+      <Route path='/reference' element={<ReferencesPage />}/>
+      <Route path='/fotografie' element={<FotographyPage />}/>
+      <Route path='/kestazeni' element={<DownloadPage />}/>
       <Route path='*' element={<h1>Page not found</h1>}/>
     </Routes>
   );

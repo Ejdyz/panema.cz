@@ -11,8 +11,8 @@ export function MainPage() {
 
             <div style={{ position: "relative" }}>
               <img src="/images/homePage.png" alt="Image" style={{ height: "auto", display: "block", width: "100%", borderRadius: "20px 20px 0px 0px", opacity: .6 }} />
-              <span style={{ position: "absolute", top: "35%", left: "50%", transform: " translate(-50%, -50%)", color: "white" }}>
-                <h1 style={{ textAlign: "center", color: "white" }}>Úvod</h1>
+              <span style={{ position: "absolute", top: "40%", left: "50%", transform: " translate(-50%, -50%)", color: "white" }}>
+                <h1 style={{ textAlign: "center", color: "white", fontSize: "3rem" }}>Úvod</h1>
                 <hr style={{ width: "200px", color: "#e7b242", opacity: 1 }}></hr>
               </span>
             </div>

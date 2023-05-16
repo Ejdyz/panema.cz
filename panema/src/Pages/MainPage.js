@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import NavBar from '../Components/NavBar'
 import { MainPageTextCard } from '../Components/MainPageTextCard';
+
 export function MainPage() {
   return (
     <>

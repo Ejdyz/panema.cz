@@ -25,10 +25,16 @@ export default function NavBar(props) {
             style={{
               backgroundColor: "#7c7c7c",
               padding: "2px",
-              maxHeight: "70px",
-              width: "",
+              height: "70px",
+            }} />
+          {/* <img
+            src="\images\Futuristiclogo.png"
+            alt="Logo"
+            style={{
+              backgroundColor: "rgb(255 197 88)",
+              padding: "5px"
             }}
-          />
+          /> */}
         </div>
       </Hidden>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">

@@ -8,7 +8,7 @@ export function ReferencesPage() {
         <Container style={{ backgroundColor: "#191c1e", height: "100%" }}> {/* Content container */}
           <div style={{ paddingTop: "3vh", height: "100%" }}>
             <div style={{ display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", position: "relative", flexWrap: "nowrap" }}>
-              <h1 style={{ textAlign: "center", color: "white", fontSize: "3rem" }}>Referece</h1>
+              <h1 style={{ textAlign: "center", color: "white", fontSize: "3rem" }}>Reference</h1>
               <hr style={{ width: "200px", color: "#e7b242", opacity: 1 }}></hr>
             </div>
           </div>

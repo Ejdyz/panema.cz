@@ -48,7 +48,7 @@ export default function NavBar(props) {
                   style={{
                     backgroundColor: "#7c7c7c",
                     padding: "2px",
-                    maxHeight: "32px",
+                    maxHeight: "40px",
                     display: { md: "inherit", xs: "none" },
                   }}
                 />
@@ -99,7 +99,7 @@ export default function NavBar(props) {
                   active={props.currentPage === "fotography"}
                 >
                   <Image style={{ marginRight: "5px" }} />
-                  Fotografie
+                  Fotogalerie
                 </Nav.Link>
               </Link>
               <Link to="/reference" style={{ textDecoration: "none" }}>
@@ -113,7 +113,7 @@ export default function NavBar(props) {
                   active={props.currentPage === "reference"}
                 >
                   <Briefcase style={{ marginRight: "5px" }} />
-                  Referece
+                  Reference
                 </Nav.Link>
               </Link>
               <Link to="/kontakt" style={{ textDecoration: "none" }}>
@@ -127,7 +127,7 @@ export default function NavBar(props) {
                   active={props.currentPage === "contact"}
                 >
                   <Person style={{ marginRight: "5px" }} />
-                  Kontak
+                  Kontakt
                 </Nav.Link>
               </Link>
             </Nav>

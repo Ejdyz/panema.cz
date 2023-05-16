@@ -6,7 +6,7 @@ export function MainPage() {
   return (
     <>
       <NavBar currentPage="main" />
-      <div style={{ backgroundColor: "#101214", height: "100%" }}> {/* Background */}
+      <div style={{ backgroundColor: "#101214", height: "100vh" }}> {/* Background */}
         <Container style={{ backgroundColor: "#191c1e", height: "100%" }}> {/* Content container */}
           <div style={{ paddingTop: "3vh", height: "100%" }}>
 

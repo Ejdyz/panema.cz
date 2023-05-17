@@ -1,12 +1,15 @@
 import Container from 'react-bootstrap/Container';
 import NavBar from '../Components/NavBar'
 import { MainPageTextCard } from '../Components/MainPageTextCard';
+import { Footer } from '../Components/Footer';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export function MainPage() {
   return (
     <>
       <NavBar currentPage="main" />
-      <div style={{ backgroundColor: "#101214", height: "100vh" }}> {/* Background */}
+      <div style={{ backgroundColor: "#101214" }}> {/* Background */}
         <Container style={{ backgroundColor: "#191c1e", height: "100%" }}> {/* Content container */}
           <div style={{ paddingTop: "3vh", height: "100%" }}>
 
@@ -19,10 +22,26 @@ export function MainPage() {
             </div>
 
             <MainPageTextCard />
-
+            <div style={{ backgroundColor: "rgb(71,71,71)", display: "grid", placeItems: "center", }}>
+              <div style={{ backgroundColor: "#191c1e", height: "auto", width: "80%", borderRadius: "70px 20px ", textAlign: "center", padding: "30px", margin: "30px", color: 'white' }}>
+                <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
+                  <h2>Naše specializace</h2>
+                  <hr style={{ width: "150px", margin: "0px" }} />
+                </div>
+                <br />
+                <h4>Naše firma se specializuje na Dálkově řízené vrtání <h4 style={{ color: "#e0a535", display: "inline" }}>(HDD) </h4> s prováděním výplachu.</h4>
+                <br />
+                <h4> Jsme schopni provádět práce v horninách o kvalitě<h4 style={{ color: "#e0a535", display: "inline" }}> x-y</h4>, s délkou vrtu až<h4 style={{ color: "#e0a535", display: "inline" }}> zzz metrů</h4> a s průměrem vrtu až <h4 style={{ color: "#e0a535", display: "inline" }}>xxxx mm</h4> .  </h4>
+                <br />
+                <Link to="/technologie"><Button variant="outline-warning" >Více zde</Button></Link>
+              </div>
+            </div>
           </div>
-        </Container>
-      </div>
+          <MainPageTextCard />
+        </Container >
+
+      </div >
+      <Footer />
     </>
   )
 }

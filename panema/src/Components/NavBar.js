@@ -20,7 +20,7 @@ export default function NavBar(props) {
           }}
         >
           <img
-            src="\images\logo.png"
+            src="\images\logo.webp"
             alt="Logo"
             style={{
               backgroundColor: "#7c7c7c",
@@ -43,7 +43,7 @@ export default function NavBar(props) {
             <Navbar.Brand>
               <Hidden lg xl xxl xxxl>
                 <img
-                  src="\images\logo.png"
+                  src="\images\logo.webp"
                   alt="Logo"
                   style={{
                     backgroundColor: "#7c7c7c",

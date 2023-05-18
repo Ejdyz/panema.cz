@@ -48,15 +48,16 @@ export function TechnologyPage() {
             <div style={{ display: "flex" }}>
               <div style={{ width: "50%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", borderRadius: "20px 0 0 0" }}>
                 <h1 style={{ borderBottom: "#e7b242 2px solid", width: "20%" }}>Trhání</h1><br />
-                <p>Bezvýkopová oprava vodovodů pomocí metody "Pipe bursting" spočívá v zatažení nového potrubí na místo stávajícího nevyhovujícího potrubí. </p>
-                <p>Při této metodě se stávající potrubí buď destruuje nebo vytlačuje. </p>
-                <p>Nové potrubí může mít stejný profil nebo být o několik dimenzí větší než stávající. </p>
-                <p>Při zatahování plastového potrubí se často používá potrubí s ochranou vrstvou, aby nedocházelo k odření nebo poškození potrubí. Bezvýkopová oprava vodovodů metodou "Relining" je podobná metodě Pipe bursting, ale do stávajícího potrubí se vtahuje nové potrubí menšího průměru.</p>
+                <p>Bezvýkopová oprava vodovodů pomocí metody <p style={{ color: "#e0a535", display: "inline" }}>"Pipe bursting"</p> spočívá v zatažení nového potrubí na místo stávajícího nevyhovujícího potrubí. </p>
+                <p>Při této metodě se stávající potrubí buď <p style={{ color: "#e0a535", display: "inline" }}>destruuje</p> nebo <p style={{ color: "#e0a535", display: "inline" }}>vytlačuje</p>. </p>
+                <p>Nové potrubí může mít <p style={{ color: "#e0a535", display: "inline" }}>stejný</p> profil nebo být o několik dimenzí <p style={{ color: "#e0a535", display: "inline" }}>větší</p> než stávající. </p>
+                <p>Při zatahování plastového potrubí se často používá potrubí s <p style={{ color: "#e0a535", display: "inline" }}>ochranou vrstvou</p>, aby nedocházelo k odření nebo poškození potrubí. Bezvýkopová oprava vodovodů metodou <p style={{ color: "#e0a535", display: "inline" }}>"Relining"</p> je podobná metodě Pipe bursting, ale do stávajícího potrubí se vtahuje nové potrubí <p style={{ color: "#e0a535", display: "inline" }}>menšího</p> průměru.</p>
               </div>
               <div style={{ width: "50%" }}>
                 <img src="/images/trhani2.webp" alt="Image" style={{ width: "100%", borderRadius: "0 20px 0 0" }} />
               </div>
             </div>
+
             <div style={{ display: "flex", marginBottom: "30px" }}>
               <div style={{ width: "50%", backgroundSize: "cover", }}>
                 <img src="/images/vrtacka2.webp" alt="Image" style={{ width: "100%", borderRadius: "0 0  0 20px" }} />
@@ -75,8 +76,8 @@ export function TechnologyPage() {
             <div style={{ width: "100%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", borderRadius: "20px" }}>
               <h2 style={{ borderBottom: "#e7b242 2px solid", width: "50%" }}>Závěr</h2>
               <p></p>
-              <p>Obě metody bezvýkopového řešení mají výhody jako rychlost provádění, minimální zásahy do komunikací, omezení dopravního provozu a ekonomickou úsporu ve srovnání s klasickými výkopy.</p>
-              <p>Ke kontaktování klikněte zde.</p>
+              <p>Obě metody bezvýkopového řešení mají výhody jako <p style={{ color: "#e0a535", display: "inline" }}>rychlost provádění</p>, <p style={{ color: "#e0a535", display: "inline" }}>minimální zásahy</p> do komunikací, omezení <p style={{ color: "#e0a535", display: "inline" }}>dopravního provozu</p> a <p style={{ color: "#e0a535", display: "inline" }}>ekonomickou</p> úsporu ve srovnání s klasickými výkopy.</p>
+              <p>Ke <p style={{ color: "#e0a535", display: "inline" }}>kontaktování</p> klikněte zde.</p>
               <Link to="/kontakt"><Button variant="outline-warning" >Kontakt</Button></Link><br />
             </div>
 

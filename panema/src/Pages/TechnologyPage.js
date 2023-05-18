@@ -23,7 +23,7 @@ export function TechnologyPage() {
                   <img src="/images/vrtacka.webp" alt="Image" style={{ width: "100%", borderRadius: "20px 0 0 0" }} />
                 </div>
                 <div style={{ width: "50%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", borderRadius: "0 20px 0 0" }}>
-                  <h1 style={{ borderBottom: "#e7b242 2px solid", width: "20%" }}>Vrtání</h1>
+                  <h1 style={{ borderBottom: "#e7b242 2px solid" }}>Vrtání</h1>
                   <p>Horizontální řízené vrtání <p style={{ color: "#e0a535", display: "inline" }}>(HDD)</p> je moderní pracovní postup pro výstavbu inženýrských sítí, jako jsou vodovody, plynovody a potrubí pro kabeláž.</p>
                   <p>Tento postup začíná provedením řízeného pilotního vrtu, který je <p style={{ color: "#e0a535", display: "inline" }}>monitorován</p> pomocí detektoru ve vrtací hlavě.</p>
                   <p>Poté se pilotní vrt rozšiřuje do požadovaného průměru pomocí rozšiřovacích hlav a <p style={{ color: "#e0a535", display: "inline" }}>zatahuje</p> se požadované potrubí.</p>
@@ -32,7 +32,7 @@ export function TechnologyPage() {
               </div>
               <div style={{ display: "flex" }}>
                 <div style={{ width: "50%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", borderRadius: "0 0  0 20px" }}>
-                  <h2 style={{ borderBottom: "#e7b242 2px solid", width: "50%" }}>Co zvládneme</h2>
+                  <h2 style={{ borderBottom: "#e7b242 2px solid" }}>Co zvládneme</h2>
                   <br />
                   <p>Zvládneme vyvrtat potrubí do délky.</p>
                   <p>Poté se pilotní vrt rozšiřuje do požadovaného průměru pomocí rozšiřovacích hlav a zatahuje se požadované potrubí.</p><br></br>
@@ -47,7 +47,7 @@ export function TechnologyPage() {
 
               <div style={{ display: "flex" }}>
                 <div style={{ width: "50%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", borderRadius: "20px 0 0 0" }}>
-                  <h1 style={{ borderBottom: "#e7b242 2px solid", width: "20%" }}>Trhání</h1><br />
+                  <h1 style={{ borderBottom: "#e7b242 2px solid" }}>Trhání</h1><br />
                   <p>Bezvýkopová oprava vodovodů pomocí metody <p style={{ color: "#e0a535", display: "inline" }}>"Pipe bursting"</p> spočívá v zatažení nového potrubí na místo stávajícího nevyhovujícího potrubí. </p>
                   <p>Při této metodě se stávající potrubí buď <p style={{ color: "#e0a535", display: "inline" }}>destruuje</p> nebo <p style={{ color: "#e0a535", display: "inline" }}>vytlačuje</p>. </p>
                   <p>Nové potrubí může mít <p style={{ color: "#e0a535", display: "inline" }}>stejný</p> profil nebo být o několik dimenzí <p style={{ color: "#e0a535", display: "inline" }}>větší</p> než stávající. </p>
@@ -63,7 +63,7 @@ export function TechnologyPage() {
                   <img src="/images/vrtacka2.webp" alt="Image" style={{ width: "100%", borderRadius: "0 0  0 20px" }} />
                 </div>
                 <div style={{ width: "50%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", borderRadius: "0 0 20px 0" }}>
-                  <h2 style={{ borderBottom: "#e7b242 2px solid", width: "50%" }}>Co zvládneme</h2>
+                  <h2 style={{ borderBottom: "#e7b242 2px solid" }}>Co zvládneme</h2>
                   <p></p>
                   <p>Tento postup začíná provedením řízeného pilotního vrtu, který je monitorován pomocí detektoru ve vrtací hlavě.</p>
                   <p>Poté se pilotní vrt rozšiřuje do požadovaného průměru pomocí rozšiřovacích hlav a zatahuje se požadované potrubí.</p><br></br>

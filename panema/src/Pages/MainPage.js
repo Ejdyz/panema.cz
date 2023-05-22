@@ -19,7 +19,7 @@ export function MainPage() {
                 <h1 style={{ textAlign: "center", color: "white", fontSize: "3rem" }}>Úvod</h1>
                 <hr style={{ width: "200px", color: "#e7b242", opacity: 1 }}></hr>
               </span>
-              <span style={{ position: "absolute", top: "100%", left: "50%", transform: " translate(-50%, -50%)", background: "linear-gradient(180deg, rgba(25,28,30,0) 10%, rgba(224,165,53,1) 100%)", height: "20px", width: "100%" }}></span>
+              <span style={{ position: "absolute", top: "100%", left: "50%", transform: " translate(-50%, -50%)", background: "linear-gradient(180deg, rgba(25,28,30,0) 10%, rgba(224,165,53,1) 100%)", height: "40px", width: "100%" }}></span>
             </div>
 
             <MainPageTextCard />
@@ -35,8 +35,7 @@ export function MainPage() {
                 <br />
                 <h4>Naše firma se specializuje na Horizontálně řízené vrtání <h4 style={{ color: "#e0a535", display: "inline" }}>(HDD) </h4> s prováděním výplachu.</h4>
                 <br />
-                <h4> Jsme schopni provádět práce v horninách o kvalitě<h4 style={{ color: "#e0a535", display: "inline" }}> x-y</h4>, s délkou vrtu až<h4 style={{ color: "#e0a535", display: "inline" }}> zzz metrů</h4> a s průměrem vrtu až <h4 style={{ color: "#e0a535", display: "inline" }}>xxxx mm</h4> .  </h4>
-                <br />
+                <h4><h4 style={{ color: "#e0a535", display: "inline" }}>Rádi</h4> vám poradíme jakou technologii při stavebních pracech zvolit. </h4>                <br />
                 <Link to="/technologie"><Button variant="outline-warning" >Více zde</Button></Link>
               </div>
             </div>

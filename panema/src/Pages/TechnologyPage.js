@@ -15,6 +15,9 @@ export function TechnologyPage() {
               <h1 style={{ textAlign: "center", color: "white", fontSize: "3rem", borderBottom: "#e7b242 2px solid" }}>Naše Technologie</h1>
               <br />
             </div>
+
+
+
             <Hidden md sm xs xxs>
               <div style={{ display: "flex" }}>
                 <div style={{ width: "50%", backgroundSize: "cover", }}>
@@ -29,11 +32,12 @@ export function TechnologyPage() {
                 </div>
               </div>
               <div style={{ display: "flex" }}>
-                <div style={{ width: "50%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", borderRadius: "0 0  0 20px" }}>
+                <div style={{ width: "50%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "5px", borderRadius: "0 0  0 20px" }}>
                   <h2 style={{ borderBottom: "#e7b242 2px solid" }}>Co zvládneme</h2>
                   <br />
-                  <p>Zvládneme vyvrtat potrubí do délky.</p>
-                  <p>Poté se pilotní vrt rozšiřuje do požadovaného průměru pomocí rozšiřovacích hlav a zatahuje se požadované potrubí.</p><br></br>
+                  <p>Zvládneme vyvrtat potrubí do délky <p style={{ color: "#e0a535", display: "inline" }}>xxx </p>m.</p>
+                  <p>S maximalní dimenzí trubky <p style={{ color: "#e0a535", display: "inline" }}>xxx </p>cm.</p>
+                  <p>Dokument k rozměrům cílové a startovací díry naleznete na odkazu níže  .</p>
                   <Link to="/kestazeni"><Button variant="outline-warning" >Dokument k rozměrům zde</Button></Link>
                 </div>
                 <div style={{ width: "50%", backgroundSize: "cover", }}>
@@ -60,11 +64,11 @@ export function TechnologyPage() {
                 <div style={{ width: "50%", backgroundSize: "cover", }}>
                   <img src="/images/vrtacka2.webp" alt="Image" style={{ width: "100%", borderRadius: "0 0  0 20px" }} />
                 </div>
-                <div style={{ width: "50%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", borderRadius: "0 0 20px 0" }}>
+                <div style={{ width: "50%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "5px", borderRadius: "0 0 20px 0" }}>
                   <h2 style={{ borderBottom: "#e7b242 2px solid" }}>Co zvládneme</h2>
-                  <p></p>
-                  <p>Tento postup začíná provedením řízeného pilotního vrtu, který je monitorován pomocí detektoru ve vrtací hlavě.</p>
-                  <p>Poté se pilotní vrt rozšiřuje do požadovaného průměru pomocí rozšiřovacích hlav a zatahuje se požadované potrubí.</p><br></br>
+                  <p>Zvládneme trhat potrubí do délky <p style={{ color: "#e0a535", display: "inline" }}>xxx </p>m.</p>
+                  <p>S maximalní dimenzí trubky <p style={{ color: "#e0a535", display: "inline" }}>xxx </p>cm.</p>
+                  <p>Dokument k rozměrům cílové a startovací díry naleznete na odkazu níže.</p>
                   <Link to="/kestazeni"><Button variant="outline-warning" >Dokument k rozměrům zde</Button></Link>
                 </div>
               </div>
@@ -95,13 +99,13 @@ export function TechnologyPage() {
               </div>
               <div style={{ display: "flex", flexWrap: "wrap", borderTop: "1px solid rgba(150,150,150,0.25)" }}>
 
-                <div style={{ width: "100%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", padding: "5px" }}>
+                <div style={{ width: "100%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "5px" }}>
                   <h2 style={{ borderBottom: "#e7b242 2px solid", width: "50%" }}>Co zvládneme</h2>
                   <br />
-                  <p>Zvládneme vyvrtat potrubí do délky.</p>
-                  <p>Poté se pilotní vrt rozšiřuje do požadovaného průměru pomocí rozšiřovacích hlav a zatahuje se požadované potrubí.</p><br></br>
+                  <p>Zvládneme vyvrtat potrubí do délky <p style={{ color: "#e0a535", display: "inline" }}>xxx </p>m <p style={{ color: "#e0a535", display: "inline" }}>xxx</p> m.</p>
+                  <p>Dokument k rozměrům cílové a startovací díry naleznete na odkazu níže  .</p>
                   <Link to="/kestazeni"><Button variant="outline-warning" >Dokument k rozměrům zde</Button></Link>
-                  <br></br>
+
                 </div>
                 <div style={{ width: "100%", backgroundSize: "cover", }}>
                   <img src="/images/vrtacka2.webp" alt="Image" style={{ width: "100%", borderRadius: "0 0 20px 20px" }} />
@@ -122,11 +126,11 @@ export function TechnologyPage() {
               </div>
               <div style={{ display: "flex", marginBottom: "30px", flexWrap: "wrap" }}>
 
-                <div style={{ width: "100%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", padding: "5px" }}>
+                <div style={{ width: "100%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "5px" }}>
                   <h2 style={{ borderBottom: "#e7b242 2px solid", width: "50%" }}>Co zvládneme</h2>
                   <p></p>
                   <p>Tento postup začíná provedením řízeného pilotního vrtu, který je monitorován pomocí detektoru ve vrtací hlavě.</p>
-                  <p>Poté se pilotní vrt rozšiřuje do požadovaného průměru pomocí rozšiřovacích hlav a zatahuje se požadované potrubí.</p><br></br>
+                  <p>Dokument k rozměrům cílové a startovací díry naleznete na odkazu níže  .</p>
                   <Link to="/kestazeni"><Button variant="outline-warning" >Dokument k rozměrům zde</Button></Link>
                   <br />
                 </div>

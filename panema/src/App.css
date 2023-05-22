@@ -7,6 +7,16 @@
   pointer-events: none;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: #282c34;
+  background: #e7b242;
+}
+
+::selection {
+  color: #282c34;
+  background: #e7b242;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

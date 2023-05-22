@@ -15,8 +15,6 @@ export function TechnologyPage() {
               <h1 style={{ textAlign: "center", color: "white", fontSize: "3rem", borderBottom: "#e7b242 2px solid" }}>Naše Technologie</h1>
               <br />
             </div>
-
-
             <Hidden md sm xs xxs>
               <div style={{ display: "flex" }}>
                 <div style={{ width: "50%", backgroundSize: "cover", }}>

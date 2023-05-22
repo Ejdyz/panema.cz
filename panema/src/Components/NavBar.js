@@ -10,8 +10,8 @@ export default function NavBar(props) {
   return (
     <>
       <Hidden md sm xs xxs>
-        <Link
-          to="/"
+        <div
+
           style={{
             backgroundColor: "#212529",
             display: "flex",
@@ -20,15 +20,17 @@ export default function NavBar(props) {
             padding: "5px",
           }}
         >
-          <img
+          <Link to="/">
+            <img
 
-            src="\images\logo.webp"
-            alt="Logo"
-            style={{
-              backgroundColor: "#7c7c7c",
-              padding: "2px",
-              height: "70px",
-            }} />
+              src="\images\logo.webp"
+              alt="Logo"
+              style={{
+                backgroundColor: "#7c7c7c",
+                padding: "2px",
+                height: "70px",
+              }} />
+          </Link>
           {/* <img
             src="\images\Futuristiclogo.png"
             alt="Logo"
@@ -37,7 +39,7 @@ export default function NavBar(props) {
               padding: "5px"
             }}
           /> */}
-        </Link>
+        </div>
       </Hidden>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>

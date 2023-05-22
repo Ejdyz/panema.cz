@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import NavBar from '../Components/NavBar'
 import { Footer } from '../Components/Footer'
 import { Hidden } from 'react-grid-system';
+import { GeoAlt, Telephone, Envelope } from 'react-bootstrap-icons';
 export function ContactPage() {
   return (
     <>
@@ -17,24 +18,25 @@ export function ContactPage() {
             <Hidden sm xs xxs>
               <Container style={{ width: "100%", backgroundColor: "#212529", textAlign: "center", color: "white", display: "flex", alignItems: "center", justifyContent: 'space-evenly', flexDirection: "column", padding: "20px", borderRadius: "20px", minHeight: "150px" }}>
                 <h1 style={{ fontSize: "2rem" }} >David Martínek</h1><br />
-                <div style={{ width: "100%", display: 'flex' }}>
-                  <div style={{ width: "50%" }}>
+                <div style={{ width: "100%", display: 'flex', alignItems: "center" }}>
+                  <div style={{ width: "50%", fontSize: "1.2rem" }}>
+                    <GeoAlt style={{ color: "#e7b242", }} /><br />
                     PANEMA s.r.o. <br />
                     250 70 Odolena Voda <br />
                     Dolínek, Čenkovská 171<br />
                   </div>
-                  <div style={{ width: "50%" }}>
-                    Tel: 602 270 410 <br />
-                    Email: <a href="mailto:dm@panema.cz">dm@panema.cz</a>
+                  <div style={{ width: "50%", fontSize: "1.2rem" }}>
+                    <Telephone style={{ color: "#e7b242", }} />   602 270 410 <br />
+                    <Envelope style={{ color: "#e7b242", }} /><a href="mailto:dm@panema.cz">  dm@panema.cz</a>
                   </div>
                 </div>
                 <br />
                 <div style={{ width: "80%", display: "flex", justifyContent: "space-evenly" }} >
                   <div >
-                    IČ:	27137970
+                    <p style={{ color: "#e7b242", display: "inline" }}>IČ:</p>	27137970
                   </div>
                   <div>
-                    DIČ:	CZ27137970
+                    <p style={{ color: "#e7b242", display: "inline" }}>DIČ:</p>	CZ27137970
                   </div>
                 </div>
               </Container>
@@ -45,23 +47,24 @@ export function ContactPage() {
                 <h1 style={{ fontSize: "2rem" }} >David Martínek</h1><br />
                 <div style={{ width: "100%" }}>
                   <div style={{ width: "100%" }}>
+                    <GeoAlt style={{ color: "#e7b242", }} /><br />
                     PANEMA s.r.o. <br />
                     250 70 Odolena Voda <br />
                     Dolínek, Čenkovská 171<br />
                   </div>
                   <br />
                   <div style={{ width: "100%" }}>
-                    Tel: 602 270 410 <br />
-                    Email: <a href="mailto:dm@panema.cz">dm@panema.cz</a>
+                    <Telephone style={{ color: "#e7b242", }} />   602 270 410 <br />
+                    <Envelope style={{ color: "#e7b242", }} /><a href="mailto:dm@panema.cz">  dm@panema.cz</a>
                   </div>
                 </div>
                 <br />
                 <div style={{ width: "80%", display: "flex", justifyContent: "space-evenly" }} >
                   <div >
-                    IČ:	27137970
+                    <p style={{ color: "#e7b242", display: "inline" }}>IČ:</p>	27137970
                   </div>
                   <div>
-                    DIČ:	CZ27137970
+                    <p style={{ color: "#e7b242", display: "inline" }}>DIČ: </p>CZ27137970
                   </div>
                 </div>
               </Container>

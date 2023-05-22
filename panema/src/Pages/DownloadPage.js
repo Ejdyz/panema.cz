@@ -8,8 +8,8 @@ export function DownloadPage() {
         <Container style={{ backgroundColor: "#191c1e", minHeight: "100vh" }}> {/* Content container */}
           <div style={{ paddingTop: "3vh", height: "100%" }}>
             <div style={{ display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", position: "relative", flexWrap: "nowrap" }}>
-              <h1 style={{ textAlign: "center", color: "white", fontSize: "3rem" }}>Ke Stažení</h1>
-              <hr style={{ width: "200px", color: "#e7b242", opacity: 1 }}></hr>
+              <h1 style={{ textAlign: "center", color: "white", fontSize: "3rem", borderBottom: "#e7b242 2px solid" }}>Ke Stažení</h1>
+              <br />
             </div>
           </div>
         </Container>

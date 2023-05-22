@@ -18,8 +18,8 @@ export function DownloadPage() {
             <Hidden md sm xs xxs>
               <Container style={{ width: "100%", backgroundColor: "#212529", textAlign: "center", color: "white", padding: "20px", borderRadius: "20px" }}>
                 <div style={{ display: 'flex', alignItems: "center", justifyContent: 'space-evenly', borderBottom: "#e7b242 2px solid", padding: "20px" }}>
-                  <div>
-                    Velikost startovací a cílové díry pro Vrtání
+                  <div >
+                    Vrtání - Podklad pro vytvoření startovací a cílové jámy
                   </div>
                   <div>
                     <i>
@@ -33,7 +33,7 @@ export function DownloadPage() {
                 </div>
                 <div style={{ display: 'flex', alignItems: "center", justifyContent: 'space-evenly', padding: "20px" }}>
                   <div>
-                    Velikost startovací a cílové díry pro Trhání
+                    Trhání - Podklad pro vytvoření startovací a cílové jámy
                   </div>
                   <div>
                     <i>
@@ -53,7 +53,7 @@ export function DownloadPage() {
               <Container style={{ width: "100%", backgroundColor: "#212529", textAlign: "center", color: "white", padding: "20px", borderRadius: "20px" }}>
                 <div style={{ borderBottom: "#e7b242 2px solid", padding: "20px" }}>
                   <div style={{ width: "100%", padding: "10px" }}>
-                    Velikost startovací a cílové díry pro Vrtání
+                    Vrtání - Podklad pro vytvoření startovací a cílové jámy
                   </div>
                   <div style={{ width: "100%", padding: "10px" }}>
                     <i>
@@ -68,7 +68,7 @@ export function DownloadPage() {
 
                 <div style={{ padding: "20px" }}>
                   <div style={{ width: "100%", padding: "10px" }}>
-                    Velikost startovací a cílové díry pro Trhání
+                    Trhání - Podklad pro vytvoření startovací a cílové jámy
                   </div>
                   <div style={{ width: "100%", padding: "10px" }}>
                     <i>

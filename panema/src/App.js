@@ -24,7 +24,7 @@ function App() {
         <Route path='/reference' element={<ReferencesPage />} />
         <Route path='/fotografie' element={<FotographyPage />} />
         <Route path='/kestazeni' element={<DownloadPage />} />
-        <Route path='*' element={<h1>Page not found</h1>} />
+        <Route path='*' element={<MainPage />} />
       </Routes>
     </>
   );

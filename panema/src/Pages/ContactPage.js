@@ -26,7 +26,7 @@ export function ContactPage() {
                     Dolínek, Čenkovská 171<br />
                   </div>
                   <div style={{ width: "50%", fontSize: "1.2rem" }}>
-                    <Telephone style={{ color: "#e7b242", }} />   602 270 410 <br />
+                    <Telephone style={{ color: "#e7b242", }} /> +420  602 270 410 <br />
                     <Envelope style={{ color: "#e7b242", }} /><a href="mailto:dm@panema.cz">  dm@panema.cz</a>
                   </div>
                 </div>
@@ -54,7 +54,7 @@ export function ContactPage() {
                   </div>
                   <br />
                   <div style={{ width: "100%" }}>
-                    <Telephone style={{ color: "#e7b242", }} />   602 270 410 <br />
+                    <Telephone style={{ color: "#e7b242", }} /> +420 602 270 410 <br />
                     <Envelope style={{ color: "#e7b242", }} /><a href="mailto:dm@panema.cz">  dm@panema.cz</a>
                   </div>
                 </div>

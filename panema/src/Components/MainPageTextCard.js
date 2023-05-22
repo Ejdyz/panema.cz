@@ -3,7 +3,7 @@ export function MainPageTextCard() {
     <div style={{ backgroundColor: "#e0a535", display: "grid", placeItems: "center", }}>
       <div style={{ backgroundColor: "#191c1e", height: "auto", width: "80%", textAlign: "center", margin: "30px", color: 'white', padding: "30px", borderRadius: "20px" }}>
         <div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
-          <h2>O Nás</h2>
+          <h2>O nás</h2>
           <hr style={{ width: "50%", margin: "0px", borderColor: "#e0a535", opacity: .5 }} />
         </div>
         <br />

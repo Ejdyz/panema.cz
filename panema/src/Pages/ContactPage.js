@@ -5,7 +5,7 @@ export function ContactPage() {
     <>
       <NavBar currentPage="contact" />
       <div style={{ backgroundColor: "#101214", height: "100vh" }}> {/* Background */}
-        <Container style={{ backgroundColor: "#191c1e", height: "100%" }}> {/* Content container */}
+        <Container style={{ backgroundColor: "#191c1e", minHeight: "100vh" }}> {/* Content container */}
           <div style={{ paddingTop: "3vh", height: "100%" }}>
             <div style={{ display: "flex", justifyContent: "center", alignItems: "center", position: "relative" }}>
               <div>

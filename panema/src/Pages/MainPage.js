@@ -11,7 +11,7 @@ export function MainPage() {
       <NavBar currentPage="main" />
       <div style={{ backgroundColor: "#101214" }}> {/* Background */}
         <Container style={{ backgroundColor: "#191c1e", height: "100%" }}> {/* Content container */}
-          <div style={{ paddingTop: "3vh", height: "100%" }}>
+          <div style={{ paddingTop: "3vh", minHeight: "100vh" }}>
 
             <div style={{ position: "relative" }}>
               <img src="/images/homePage.webp" alt="Image" style={{ height: "auto", display: "block", width: "100%", borderRadius: "20px 20px 0px 0px", opacity: .6, filter: "grayscale(1)" }} />

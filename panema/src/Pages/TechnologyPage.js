@@ -62,7 +62,7 @@ export function TechnologyPage() {
 
               <div style={{ display: "flex", marginBottom: "30px" }}>
                 <div style={{ width: "50%", backgroundSize: "cover", }}>
-                  <img src="/images/vrtacka2.webp" alt="Image" style={{ width: "100%", borderRadius: "0 0  0 20px" }} />
+                  <img src="/images/trhani1.webp" alt="Image" style={{ width: "100%", borderRadius: "0 0  0 20px" }} />
                 </div>
                 <div style={{ width: "50%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "5px", borderRadius: "0 0 20px 0" }}>
                   <h2 style={{ borderBottom: "#e7b242 2px solid" }}>Co zvládneme</h2>
@@ -135,7 +135,7 @@ export function TechnologyPage() {
                   <br />
                 </div>
                 <div style={{ width: "100%", backgroundSize: "cover", }}>
-                  <img src="/images/vrtacka2.webp" alt="Image" style={{ width: "100%", borderRadius: "0 0  0 20px" }} />
+                  <img src="/images/trhani1.webp" alt="Image" style={{ width: "100%", borderRadius: "0 0  0 20px" }} />
                 </div>
               </div>
               <div style={{ width: "100%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", borderRadius: "20px" }}>

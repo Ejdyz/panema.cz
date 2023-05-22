@@ -35,7 +35,7 @@ export function MainPage() {
                 <br />
                 <h4>Naše firma se specializuje na Horizontálně řízené vrtání <h4 style={{ color: "#e0a535", display: "inline" }}>(HDD) </h4> s prováděním výplachu.</h4>
                 <br />
-                <h4><h4 style={{ color: "#e0a535", display: "inline" }}>Rádi</h4> vám poradíme jakou technologii při stavebních pracech zvolit. </h4>                <br />
+                <h4><h4 style={{ color: "#e0a535", display: "inline" }}>Rádi</h4> vám poradíme jakou technologii při stavebních pracech zvolit. </h4><br />
                 <Link to="/technologie"><Button variant="outline-warning" >Více zde</Button></Link>
               </div>
             </div>

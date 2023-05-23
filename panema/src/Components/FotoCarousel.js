@@ -46,6 +46,14 @@ export function FotoCarousel() {
       <Carousel.Item interval={99999999999}>
         <img
           className="d-block w-100"
+          src="/fotogalery/DJI_0289.webp"
+          alt=""
+        />
+      </Carousel.Item>
+
+      <Carousel.Item interval={99999999999}>
+        <img
+          className="d-block w-100"
           src="/fotogalery/DJI_0298.webp"
           alt=""
         />
@@ -127,6 +135,14 @@ export function FotoCarousel() {
         <img
           className="d-block w-100"
           src="/fotogalery/20190912_151333.webp"
+          alt=""
+        />
+      </Carousel.Item>
+
+      <Carousel.Item interval={99999999999}>
+        <img
+          className="d-block w-100"
+          src="/fotogalery/20220613_145206.webp"
           alt=""
         />
       </Carousel.Item>

@@ -27,8 +27,8 @@ export function DownloadPage() {
                     </i>
                   </div>
                   <div >
-                    <Button download href='#' variant='outline-success' style={{ marginRight: "20px" }}>Stáhnout</Button>
-                    <Button href='#' variant="outline-warning" >Otevřít</Button>
+                    <Button download href='/files/Vrtani.pdf' variant='outline-success' style={{ marginRight: "20px" }}>Stáhnout</Button>
+                    <Button href='/files/Vrtani.pdf' variant="outline-warning" >Otevřít</Button>
                   </div>
                 </div>
                 <div style={{ display: 'flex', alignItems: "center", justifyContent: 'space-evenly', padding: "20px" }}>
@@ -41,8 +41,8 @@ export function DownloadPage() {
                     </i>
                   </div>
                   <div >
-                    <Button download href='#' variant='outline-success' style={{ marginRight: "20px" }}>Stáhnout</Button>
-                    <Button href='#' variant="outline-warning" >Otevřít</Button>
+                    <Button download href='/files/Trhani.pdf' variant='outline-success' style={{ marginRight: "20px" }}>Stáhnout</Button>
+                    <Button href='/files/Trhani.pdf' variant="outline-warning" >Otevřít</Button>
                   </div>
                 </div>
               </Container>
@@ -61,8 +61,8 @@ export function DownloadPage() {
                     </i>
                   </div>
                   <div style={{ width: "100%", padding: "10px" }}>
-                    <Button download href='#' variant='outline-success' style={{ marginRight: "20px" }}>Stáhnout</Button>
-                    <Button href='#' variant="outline-warning" >Otevřít</Button>
+                    <Button download href='/files/Vrtani.pdf' variant='outline-success' style={{ marginRight: "20px" }}>Stáhnout</Button>
+                    <Button href='/files/Vrtani.pdf' variant="outline-warning" >Otevřít</Button>
                   </div>
                 </div>
 
@@ -76,8 +76,8 @@ export function DownloadPage() {
                     </i>
                   </div>
                   <div style={{ width: "100%", padding: "10px" }}>
-                    <Button download href='#' variant='outline-success' style={{ marginRight: "20px" }}>Stáhnout</Button>
-                    <Button href='#' variant="outline-warning" >Otevřít</Button>
+                    <Button download href='/files/Trhani.pdf' variant='outline-success' style={{ marginRight: "20px" }}>Stáhnout</Button>
+                    <Button href='/files/Trhani.pdf' variant="outline-warning" >Otevřít</Button>
                   </div>
                 </div>
               </Container>

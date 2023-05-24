@@ -62,7 +62,7 @@ export function DownloadPage() {
                 </div>
                 <div style={{ display: 'flex', alignItems: "center", justifyContent: 'space-between', padding: "20px" }}>
                   <div>
-                    Trhání - Technologický postup pipe bursting
+                    Trhání - Technologický postup Pipe bursting
                   </div>
                   <div>
                     <i>
@@ -126,7 +126,7 @@ export function DownloadPage() {
                 </div>
                 <div style={{ padding: "20px" }}>
                   <div style={{ width: "100%", padding: "10px" }}>
-                    Trhání - Technologický Postup Pipe Bursting
+                    Trhání - Technologický postup Pipe bursting
                   </div>
                   <div style={{ width: "100%", padding: "10px" }}>
                     <i>

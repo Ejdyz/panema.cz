@@ -17,7 +17,7 @@ export function DownloadPage() {
 
             <Hidden md sm xs xxs>
               <Container style={{ width: "100%", backgroundColor: "#212529", textAlign: "center", color: "white", padding: "20px", borderRadius: "20px" }}>
-                <div style={{ display: 'flex', alignItems: "center", justifyContent: 'space-evenly', borderBottom: "#e7b242 2px solid", padding: "20px" }}>
+                <div style={{ display: 'flex', alignItems: "center", justifyContent: 'space-between', padding: "20px" }}>
                   <div >
                     Vrtání - Podklad pro vytvoření startovací a cílové jámy
                   </div>
@@ -31,7 +31,22 @@ export function DownloadPage() {
                     <Button href='/files/Vrtani.pdf' variant="outline-warning" >Otevřít</Button>
                   </div>
                 </div>
-                <div style={{ display: 'flex', alignItems: "center", justifyContent: 'space-evenly', padding: "20px" }}>
+
+                <div style={{ display: 'flex', alignItems: "center", justifyContent: 'space-between', borderBottom: "#e7b242 2px solid", padding: "20px" }}>
+                  <div>
+                    Vrtání - Technologický postup HDD
+                  </div>
+                  <div>
+                    <i>
+                      TechnologickyPostupHDD.pdf
+                    </i>
+                  </div>
+                  <div >
+                    <Button download href='/files/Trhani.pdf' variant='outline-success' style={{ marginRight: "20px" }}>Stáhnout</Button>
+                    <Button href='/files/Trhani.pdf' variant="outline-warning" >Otevřít</Button>
+                  </div>
+                </div>
+                <div style={{ display: 'flex', alignItems: "center", justifyContent: 'space-between', padding: "20px" }}>
                   <div>
                     Trhání - Podklad pro vytvoření startovací a cílové jámy
                   </div>
@@ -45,13 +60,27 @@ export function DownloadPage() {
                     <Button href='/files/Trhani.pdf' variant="outline-warning" >Otevřít</Button>
                   </div>
                 </div>
+                <div style={{ display: 'flex', alignItems: "center", justifyContent: 'space-between', padding: "20px" }}>
+                  <div>
+                    Trhání - Technologický postup pipe bursting
+                  </div>
+                  <div>
+                    <i>
+                      TechnologickyPostupPipeBursting.pdf
+                    </i>
+                  </div>
+                  <div >
+                    <Button download href='/files/Trhani.pdf' variant='outline-success' style={{ marginRight: "20px" }}>Stáhnout</Button>
+                    <Button href='/files/TechnologickyPostupPipeBursting.pdf' variant="outline-warning" >Otevřít</Button>
+                  </div>
+                </div>
               </Container>
               <br />
             </Hidden>
 
             <Hidden lg xl xxl xxxl>
               <Container style={{ width: "100%", backgroundColor: "#212529", textAlign: "center", color: "white", padding: "20px", borderRadius: "20px" }}>
-                <div style={{ borderBottom: "#e7b242 2px solid", padding: "20px" }}>
+                <div style={{ padding: "20px" }}>
                   <div style={{ width: "100%", padding: "10px" }}>
                     Vrtání - Podklad pro vytvoření startovací a cílové jámy
                   </div>
@@ -63,6 +92,21 @@ export function DownloadPage() {
                   <div style={{ width: "100%", padding: "10px" }}>
                     <Button download href='/files/Vrtani.pdf' variant='outline-success' style={{ marginRight: "20px" }}>Stáhnout</Button>
                     <Button href='/files/Vrtani.pdf' variant="outline-warning" >Otevřít</Button>
+                  </div>
+                </div>
+
+                <div style={{ padding: "20px", borderBottom: "#e7b242 2px solid", }}>
+                  <div style={{ width: "100%", padding: "10px" }}>
+                    Vrtání - Technologický postup HDD
+                  </div>
+                  <div style={{ width: "100%", padding: "10px" }}>
+                    <i>
+                      TechnologickyPostupHDD.pdf
+                    </i>
+                  </div>
+                  <div style={{ width: "100%", padding: "10px" }}>
+                    <Button download href='/files/Trhani.pdf' variant='outline-success' style={{ marginRight: "20px" }}>Stáhnout</Button>
+                    <Button href='/files/Trhani.pdf' variant="outline-warning" >Otevřít</Button>
                   </div>
                 </div>
 
@@ -80,13 +124,27 @@ export function DownloadPage() {
                     <Button href='/files/Trhani.pdf' variant="outline-warning" >Otevřít</Button>
                   </div>
                 </div>
+                <div style={{ padding: "20px" }}>
+                  <div style={{ width: "100%", padding: "10px" }}>
+                    Trhání - Technologický Postup Pipe Bursting
+                  </div>
+                  <div style={{ width: "100%", padding: "10px" }}>
+                    <i>
+                      TechnologickyPostupPipeBursting.pdf
+                    </i>
+                  </div>
+                  <div style={{ width: "100%", padding: "10px" }}>
+                    <Button download href='/files/Trhani.pdf' variant='outline-success' style={{ marginRight: "20px" }}>Stáhnout</Button>
+                    <Button href='/files/TechnologickyPostupPipeBursting.pdf' variant="outline-warning" >Otevřít</Button>
+                  </div>
+                </div>
               </Container>
               <br />
             </Hidden>
           </div>
-        </Container>
+        </Container >
         <Footer />
-      </div>
+      </div >
     </>
   )
 }

@@ -13,8 +13,15 @@ export function ReferencesPage() {
         <Container style={{ backgroundColor: "#191c1e", minHeight: "100vh" }}> {/* Content container */}
           <div style={{ paddingTop: "3vh", height: "100%" }}>
             <div style={{ display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center", position: "relative", flexWrap: "nowrap" }}>
-              <h1 style={{ textAlign: "center", color: "white", fontSize: "3rem", borderBottom: "#e7b242 2px solid" }}>Reference</h1>
+
+              <Hidden md sm xs xxs>
+                <h1 style={{ textAlign: "center", color: "white", fontSize: "3rem", borderBottom: "#e7b242 2px solid" }}>Reference - Naši partneři</h1>
+              </Hidden>
+              <Hidden lg xl xxl xxxl>
+                <h1 style={{ textAlign: "center", color: "white", fontSize: "3rem", borderBottom: "#e7b242 2px solid" }}>Reference - <br />Naši partneři</h1>
+              </Hidden>
               <br />
+
             </div>
 
             <Hidden md sm xs xxs>

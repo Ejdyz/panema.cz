@@ -33,10 +33,9 @@ export function TechnologyPage() {
               </div>
               <div style={{ display: "flex" }}>
                 <div style={{ width: "50%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "5px", borderRadius: "0 0  0 20px" }}>
-                  <h2 style={{ borderBottom: "#e7b242 2px solid" }}>Co zvládneme</h2>
+
                   <br />
-                  <p>Zvládneme zatáhnout potrubí v délce <p style={{ color: "#e0a535", display: "inline" }}> 100 </p>m.</p>
-                  <p>Do maximalního průměru potrubí <p style={{ color: "#e0a535", display: "inline" }}> 200 </p>mm.</p>
+
                   <p>Dokument k rozměrům startovací a cílové jámy naleznete na odkazu níže.</p>
                   <Link to="/kestazeni"><Button variant="outline-warning" >Dokument k rozměrům zde</Button></Link>
                 </div>
@@ -50,10 +49,10 @@ export function TechnologyPage() {
               <div style={{ display: "flex" }}>
                 <div style={{ width: "50%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", borderRadius: "20px 0 0 0" }}>
                   <h1 style={{ borderBottom: "#e7b242 2px solid" }}>Trhání</h1><br />
-                  <p>Bezvýkopová oprava vodovodů pomocí metody <p style={{ color: "#e0a535", display: "inline" }}><b>"Pipe bursting"</b></p> spočívá v zatažení nového potrubí na místo stávajícího nevyhovujícího potrubí. </p>
-                  <p>Při této metodě se stávající potrubí buď <p style={{ color: "#e0a535", display: "inline" }}>destruuje</p> nebo <p style={{ color: "#e0a535", display: "inline" }}>vytlačuje</p>. </p>
-                  <p>Nové potrubí může mít <p style={{ color: "#e0a535", display: "inline" }}>stejný</p> profil nebo být o několik dimenzí <p style={{ color: "#e0a535", display: "inline" }}>větší</p> než stávající. </p>
-                  <p>Při zatahování plastového potrubí se často používá potrubí s <p style={{ color: "#e0a535", display: "inline" }}>ochranou vrstvou</p>, aby nedocházelo k jeho odření nebo poškození. Bezvýkopová oprava vodovodů metodou <p style={{ color: "#e0a535", display: "inline" }}><b>"Relining"</b></p> je podobná metodě Pipe bursting, ale do stávajícího potrubí se vtahuje nové potrubí <p style={{ color: "#e0a535", display: "inline" }}>menšího</p> průměru.</p>
+                  <p>Bezvýkopová oprava vodovodů pomocí metody <p style={{ color: "#e0a535", display: "inline" }}><b>"Pipe bursting"</b></p> spočívá v zatažení nového potrubí na místo stávajícího potrubí. </p>
+                  <p>Při této metodě se stávající potrubí <p style={{ color: "#e0a535", display: "inline" }}>roztrhá</p>  . </p>
+                  <p>Nové potrubí může mít <p style={{ color: "#e0a535", display: "inline" }}>stejný</p> profil nebo být o dvě dimenze <p style={{ color: "#e0a535", display: "inline" }}>větší</p> než stávající. </p>
+                  <p>Při zatahování <p style={{ color: "#e0a535", display: "inline" }}>PE</p> potrubí se často používá potrubí s <p style={{ color: "#e0a535", display: "inline" }}>ochranou vrstvou</p>, aby nedocházelo k jeho odření nebo poškození. Bezvýkopová oprava vodovodů metodou <p style={{ color: "#e0a535", display: "inline" }}><b>"Relining"</b></p> je podobná metodě Pipe bursting, ale do stávajícího potrubí se vtahuje nové potrubí <p style={{ color: "#e0a535", display: "inline" }}>menšího</p> průměru.</p>
                 </div>
                 <div style={{ width: "50%" }}>
                   <img src="/images/trhani2.webp" alt="Image" style={{ width: "100%", borderRadius: "0 20px 0 0" }} />
@@ -65,11 +64,11 @@ export function TechnologyPage() {
                   <img src="/images/trhani1.webp" alt="Image" style={{ width: "100%", borderRadius: "0 0  0 20px" }} />
                 </div>
                 <div style={{ width: "50%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "5px", borderRadius: "0 0 20px 0" }}>
-                  <h2 style={{ borderBottom: "#e7b242 2px solid" }}>Co zvládneme</h2>
-                  <p>Zvládneme zatáhnout potrubí do délky <p style={{ color: "#e0a535", display: "inline" }}> 130 </p>m.</p>
-                  <p>S maximalní dimenzí trubky <p style={{ color: "#e0a535", display: "inline" }}>225 </p>mm.</p>
+
+                  <br />
                   <p>Dokument k rozměrům startovací a cílové jámy naleznete na odkazu níže.</p>
                   <Link to="/kestazeni"><Button variant="outline-warning" >Dokument k rozměrům zde</Button></Link>
+
                 </div>
               </div>
 
@@ -100,10 +99,8 @@ export function TechnologyPage() {
               <div style={{ display: "flex", flexWrap: "wrap", borderTop: "1px solid rgba(150,150,150,0.25)" }}>
 
                 <div style={{ width: "100%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "5px" }}>
-                  <h2 style={{ borderBottom: "#e7b242 2px solid", width: "50%" }}>Co zvládneme</h2>
+
                   <br />
-                  <p>Zvládneme zatáhnout potrubí v délce <p style={{ color: "#e0a535", display: "inline" }}> 100 </p>m.</p>
-                  <p>Do maximalního průměru potrubí <p style={{ color: "#e0a535", display: "inline" }}> 200 </p>mm.</p>
                   <p>Dokument k rozměrům startovací a cílové jámy naleznete na odkazu níže.</p>
                   <Link to="/kestazeni"><Button variant="outline-warning" >Dokument k rozměrům zde</Button></Link>
 
@@ -116,10 +113,11 @@ export function TechnologyPage() {
               <div style={{ display: "flex", flexWrap: "wrap" }}>
                 <div style={{ width: "100%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", padding: "5px", borderRadius: "20px 20px 0 0" }}>
                   <h1 style={{ borderBottom: "#e7b242 2px solid", width: "20%" }}>Trhání</h1><br />
-                  <p>Bezvýkopová oprava vodovodů pomocí metody <p style={{ color: "#e0a535", display: "inline" }}><b>"Pipe bursting"</b></p> spočívá v zatažení nového potrubí na místo stávajícího nevyhovujícího potrubí. </p>
-                  <p>Při této metodě se stávající potrubí buď <p style={{ color: "#e0a535", display: "inline" }}>destruuje</p> nebo <p style={{ color: "#e0a535", display: "inline" }}>vytlačuje</p>. </p>
-                  <p>Nové potrubí může mít <p style={{ color: "#e0a535", display: "inline" }}>stejný</p> profil nebo být o několik dimenzí <p style={{ color: "#e0a535", display: "inline" }}>větší</p> než stávající. </p>
-                  <p>Při zatahování plastového potrubí se často používá potrubí s <p style={{ color: "#e0a535", display: "inline" }}>ochranou vrstvou</p>, aby nedocházelo k jeho odření nebo poškození. Bezvýkopová oprava vodovodů metodou <p style={{ color: "#e0a535", display: "inline" }}><b>"Relining"</b></p> je podobná metodě Pipe bursting, ale do stávajícího potrubí se vtahuje nové potrubí <p style={{ color: "#e0a535", display: "inline" }}>menšího</p> průměru.</p>
+                  <p>Bezvýkopová oprava vodovodů pomocí metody <p style={{ color: "#e0a535", display: "inline" }}><b>"Pipe bursting"</b></p> spočívá v zatažení nového potrubí na místo stávajícího potrubí. </p>
+                  <p>Při této metodě se stávající potrubí <p style={{ color: "#e0a535", display: "inline" }}>roztrhá</p>  . </p>
+                  <p>Nové potrubí může mít <p style={{ color: "#e0a535", display: "inline" }}>stejný</p> profil nebo být o dvě dimenze <p style={{ color: "#e0a535", display: "inline" }}>větší</p> než stávající. </p>
+                  <p>Při zatahování <p style={{ color: "#e0a535", display: "inline" }}>PE</p> potrubí se často používá potrubí s <p style={{ color: "#e0a535", display: "inline" }}>ochranou vrstvou</p>, aby nedocházelo k jeho odření nebo poškození. Bezvýkopová oprava vodovodů metodou <p style={{ color: "#e0a535", display: "inline" }}><b>"Relining"</b></p> je podobná metodě Pipe bursting, ale do stávajícího potrubí se vtahuje nové potrubí <p style={{ color: "#e0a535", display: "inline" }}>menšího</p> průměru.</p>
+
                 </div>
                 <div style={{ width: "100%" }}>
                   <img src="/images/trhani2.webp" alt="Image" style={{ width: "100%" }} />
@@ -128,9 +126,7 @@ export function TechnologyPage() {
               <div style={{ display: "flex", marginBottom: "30px", flexWrap: "wrap" }}>
 
                 <div style={{ width: "100%", backgroundColor: "#212529", color: "white", textAlign: "center", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "5px" }}>
-                  <h2 style={{ borderBottom: "#e7b242 2px solid", width: "50%" }}>Co zvládneme</h2>
-                  <p>Zvládneme zatáhnout potrubí do délky <p style={{ color: "#e0a535", display: "inline" }}> 130 </p>m.</p>
-                  <p>S maximalní dimenzí trubky <p style={{ color: "#e0a535", display: "inline" }}>225 </p>mm.</p>
+                  <br />
                   <p>Dokument k rozměrům startovací a cílové jámy naleznete na odkazu níže  .</p>
                   <Link to="/kestazeni"><Button variant="outline-warning" >Dokument k rozměrům zde</Button></Link>
                   <br />

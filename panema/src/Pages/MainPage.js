@@ -33,9 +33,9 @@ export function MainPage() {
                   <hr style={{ width: "50%", margin: "0px", borderColor: "#e0a535", opacity: .5 }} />
                 </div>
                 <br />
-                <h4>Naše firma se specializuje na <h4 style={{ color: "#e0a535", display: "inline" }}>Horizontální řízené vrtání (HDD) </h4> s prováděním výplachu</h4>
+                <h4>Naše firma se specializuje na <h4 style={{ color: "#e0a535", display: "inline" }}>Horizontální řízené vrtání (HDD) </h4></h4>
                 <h4>a</h4>
-                <h4>bezvýkopovou opravu vodovodů pomocí metody <h4 style={{ color: "#e0a535", display: "inline" }}>"Pipe bursting"</h4>.</h4>
+                <h4>bezvýkopovou rekonstrukci vodovodů pomocí metody <h4 style={{ color: "#e0a535", display: "inline" }}>"Pipe bursting"</h4>.</h4>
                 <br />
                 <br />
                 <h4><h4 style={{ color: "#e0a535", display: "inline" }}>Rádi</h4> vám poradíme jakou technologii při stavebních pracech zvolit. </h4><br />

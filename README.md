@@ -1,5 +1,5 @@
 ## Website for Panema s.r.o.
-![Logo](https://panema.ejdy.cz/images/logo.webp)
+![Logo](https://panema.ejdy.cz/images/logo.png)
 
 This project was made during two-week practice from school.\
 It is static webiste made in React.

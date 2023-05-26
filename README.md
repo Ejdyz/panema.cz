@@ -2,8 +2,8 @@
 ![Logo](https://panema.ejdy.cz/images/logo.png)
 
 This project was made during two-week practice from school.\
-It is static webiste made in React.
-
+It is static webiste made in React.\
+https://wwww.panema.cz
 ## Build with
  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)\
  ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)\
